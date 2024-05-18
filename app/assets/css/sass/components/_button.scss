@@ -1,0 +1,19 @@
+.button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 1.6rem;
+  background-color: var(--primary-main);
+  cursor: pointer;
+  border-radius: .4rem;
+  color: var(--text-contrast);
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: .3s all;
+  &:hover {
+    opacity: .9;
+  }
+}
