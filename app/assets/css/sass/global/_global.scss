@@ -1,0 +1,22 @@
+html {
+  font-family: var(--font-main);
+  font-size: 62.5%;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+body {
+  background-color: var(--background-main);
+  font-size: 1.4rem;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+  &:not(:last-child) {
+    margin-bottom: .4em;
+  }
+}

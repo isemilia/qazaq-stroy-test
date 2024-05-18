@@ -1,0 +1,9 @@
+.card {
+  border-radius: .4rem;
+  background-color: var(--background-light);
+  &--centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,36 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.6rem
+}
+
+.field {
+  &-label {
+    font-size: 1.3rem;
+    color: var(--text-light);
+    margin-bottom: .4rem;
+  }
+  &-root {
+    position: relative;
+  }
+  &-input {
+    width: 100%;
+    display: block;
+    border-radius: .4rem;
+    border: 1px solid var(--neutral-light);
+    padding: 1.6rem 1.2rem;
+    font-size: 1.4rem;
+    &::placeholder {
+      color: var(--text-light);
+    }
+  }
+  &-helper {
+    margin-top: .8rem;
+    padding-left: .8rem;
+    font-size: 1.3rem;
+    color: var(--text-light);
+    &--danger {
+      color: var(--danger-main);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.auth {
+  height: 100%;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+  }
+  &-card {
+    padding: 8rem 12rem;
+    width: 100%;
+    max-width: 67.5rem;
+    row-gap: 2.4rem;
+    &-logo {
+      max-width: fit-content;
+    }
+  }
+  &-form {
+    width: 100%;
+    max-width: 33rem;
+  }
+}
