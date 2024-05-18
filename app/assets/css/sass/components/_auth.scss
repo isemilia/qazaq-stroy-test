@@ -14,6 +14,9 @@
     &-logo {
       max-width: fit-content;
     }
+    @media (max-width: 767px) {
+      padding: 5rem 2rem;
+    }
   }
   &-form {
     width: 100%;
